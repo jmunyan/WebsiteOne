@@ -1,0 +1,6 @@
+/*#name is an ID
+  it can be used to move you to sections of the page*/
+.index-body {
+   color: red;
+   background-color: gray;
+}
