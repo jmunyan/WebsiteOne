@@ -32,34 +32,34 @@ h1 {
 
 body {
     background-repeat: repeat-x;
-    background-size: 50% 300%;
+    background-size: 100% 7000px;
     background-image: url("https://www.bing.com/th?id=AMMS_d089753ce771ccd6c2a813b6eec53ef9&w=110&h=110&c=12&rs=1&qlt=80&pcl=f9f9f9&cdv=1&pid=16.2");
+    overflow: auto;
     scroll-behavior: smooth;
 }
 
-body .topbar{
-
+.topbar{
     font-size: 40px;
     background-color: blue;
-    padding-top: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
-box {
-
-}
-
-.why {
-    height: 100px;
-    font-size: 90px;
-    padding-top: 50%;
-    padding-left: 20px;
-    padding-right: 50px;
-    height: 200px;
+.div1 {
     background-color: orange;
-
+    /*padding deals with space inside of the element*/
+    height: 500px;
+    width: 100%;
+    margin-top: 1200px;
+    margin-bottom: 0;
+    scroll-behavior: smooth;
+    overflow: auto;
 }
-/*
-.index-body {
-   color: red;
-   background-color: gray;
+
+.div1 .why {
+    font-size: 400px;
+    color: gray;
+    background-color: blue;
 }
