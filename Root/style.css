@@ -32,8 +32,8 @@ h1 {
 
 body {
     background-repeat: repeat-x;
-    background-size: 100% 7000px;
-    background-image: url("https://www.bing.com/th?id=AMMS_d089753ce771ccd6c2a813b6eec53ef9&w=110&h=110&c=12&rs=1&qlt=80&pcl=f9f9f9&cdv=1&pid=16.2");
+    background-size: 100% 1800px;
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1064359778%2F960x0.jpg%3Ffit%3Dscale");
     overflow: auto;
     scroll-behavior: smooth;
 }
